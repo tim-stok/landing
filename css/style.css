@@ -1,0 +1,58 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Lora&family=Overlock+SC&display=swap');
+
+/* import all components files */
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+/* colors and fonts */
+body{
+	background-color: #282333;
+	color: #ededff;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+h1, h4{font-family: 'Overlock SC', cursive;}
+h2, h3{font-family: 'Forum', cursive;}
+
+h1{
+	color: #9C1D49;
+	font-weight: 920;
+	font-size: 60px;
+	margin-bottom: 0px;
+}
+
+h2{
+	color: #A7C8DB;
+	font-weight: 300;
+	font-size: 35px;
+	margin-top: 0px;
+}
+
+h3{
+	color: #FFE800;
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h4{
+	color: #9C1D48;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+
+/* for the links */
+a {
+	font-family: 'Forum', cursive;
+	text-decoration: none;
+	color: #FFE800;
+	transition: color 0.1s ease;
+}
+
+html{scroll-behavior: smooth;}
